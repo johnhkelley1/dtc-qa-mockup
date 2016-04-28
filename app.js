@@ -10,5 +10,5 @@ app.get('/', function (req, res) {
   res.redirect('index.html')
 })
 
-http.createServer(app).listen(3005)
+http.createServer(app).listen(3010)
 
