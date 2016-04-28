@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Q&A Mockup</title>
+    <link rel="stylesheet" type="text/css" href="lib/bootstrap-theme.css" />
+    <link rel="stylesheet" type="text/css" href="lib/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="lib/sweet-alert.css" />
+    <link rel="stylesheet" type="text/css" href="main.css" />
+
+    <script src="lib/jquery.min.js"></script>
+    <script src="lib/sweet-alert.js"></script>
+    <script src="main.js"></script>
+  </head>
+  <body>
+  	<div class="col-xs-6 contract-col">
+  		<embed src="pdf/nai-contract.pdf" type="application/pdf" width="100%">
+  	</div>
+  	<div class="col-xs-6 col-xs-offset-6">
+  		<h1>
+  			Contract Q&A
+  		</h1>
+  		<p>
+  			Before signing the contract, please answer the questions below.
+  		</p>
+  		<form id="contract-form">
+	  		<p>
+	  			<h4>
+	  				What is the penalty for late payment?
+	  			</h4>
+	  			<fieldset id="group1">
+			        <input type="radio" value="1" name="group1"> 3% per month, after 30 days past due<br />
+			        <input type="radio" value="2" name="group1"> .5% per month, after 60 days past due<br />
+			        <input type="radio" value="3" name="group1"> 1.2% per month, after 30 days past due<br />
+			        <input type="radio" value="4" name="group1"> 1% per month, after 60 days past due<br />
+			    </fieldset>
+	  		</p>
+	  		<p>
+	  			<h4>
+	  				What is the estimated time frame of this project?
+	  			</h4>
+	  			<fieldset id="group2">
+			        <input type="radio" value="1" name="group2"> 3 months<br />
+			        <input type="radio" value="2" name="group2"> 4-6 weeks<br />
+			        <input type="radio" value="3" name="group2"> 6-8 weeks<br />
+			        <input type="radio" value="4" name="group2"> 1 month<br />
+			    </fieldset>
+	  		</p>
+	  		<p>
+	  			<h4>
+	  				What is the hourly rate for minor changes after the project's completion?
+	  			</h4>
+	  			<fieldset id="group3">
+			        <input type="radio" value="1" name="group3"> $50/hour<br />
+			        <input type="radio" value="2" name="group3"> $100/hour<br />
+			        <input type="radio" value="3" name="group3"> $150/hour<br />
+			        <input type="radio" value="4" name="group3"> $200/hour<br />
+			    </fieldset>
+	  		</p>
+	  		<p>
+	  			<h4>
+	  				The unique combination of source files, images, and graphic designs is owned by...
+	  			</h4>
+	  			<fieldset id="group4">
+			        <input type="radio" value="1" name="group4"> The designer<br />
+			        <input type="radio" value="2" name="group4"> The client<br />
+			        <input type="radio" value="3" name="group4"> The designer and the client<br />
+			    </fieldset>
+	  		</p>
+	  		<p>
+	  			<h4>
+	  				This project has a set deadline.
+	  			</h4>
+	  			<fieldset id="group4">
+			        <input type="radio" value="1" name="group5"> True<br />
+			        <input type="radio" value="2" name="group5"> False<br />
+			    </fieldset>
+	  		</p>
+	  		<h1>
+	  			Please Sign Below
+	  		</h1>
+	  		<p>
+	  			<input type="text" id="sig" class="form-control" placeholder="Your Signature Here" />
+	  			<button id="submit-btn" type="button" class="btn btn-success">Sign Contract</button>
+	  		</p>
+  		</form>
+  	</div>
+  </body>
+</html>

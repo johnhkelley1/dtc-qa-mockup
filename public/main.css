@@ -1,0 +1,14 @@
+embed {
+	height: 100vh;
+}
+.contract-col {
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+#submit-btn {
+	margin-top: 10px;
+}
+.red-color {
+	color: #e74c3c;
+}
